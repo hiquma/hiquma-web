@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
+import Image from "next/image";
+import mypic from "../asset/logo.png";
+import mypic2 from "../asset/construction.png";
 
 export default function Home() {
   return (
@@ -11,10 +14,22 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Hiquma " />
-        <p className="description">High Quality Marine</p>
+        <Image
+          src={mypic}
+          alt="Picture of the author"
+          width="350px"
+          height="200px"
+        />
 
-        <p className="description">Website is under construction</p>
+        <Image
+          src={mypic2}
+          alt="Picture of the author"
+          width="430px"
+          height="220px"
+        />
+        <h2 className="description">Website is under construction</h2>
+
+        <h2 className="description">Contact</h2>
         <p className="description">
           <b>Email :</b> muhammet@hiquma.net{" "}
         </p>
