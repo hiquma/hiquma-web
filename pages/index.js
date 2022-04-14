@@ -2,7 +2,7 @@ import Head from "next/head";
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import Image from "next/image";
-import mypic from "../asset/logo.png";
+import mypic from "../asset/logoHiquma.png";
 import mypic2 from "../asset/construction.png";
 
 export default function Home() {
