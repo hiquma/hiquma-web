@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 import Image from "next/image";
 import mypic from "../asset/logoHiquma.png";
 import mypic2 from "../asset/construction.png";
-import mypic3 from "../asset/hiqumaBanner2.png";
+import mypic3 from "../asset/hiqumaBanner3.png";
 
 export default function Home() {
   if (process.browser) {
