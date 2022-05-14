@@ -4,7 +4,7 @@ import Footer from "@components/Footer";
 import Image from "next/image";
 import mypic from "../asset/logoHiquma.png";
 import mypic2 from "../asset/construction.png";
-import mypic3 from "../asset/hiqumaBanner.png";
+import mypic3 from "../asset/hiqumaBanner2.png";
 
 export default function Home() {
   // document.addEventListener("contextmenu", function handelRightClick(event) {
