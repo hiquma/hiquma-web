@@ -5,6 +5,8 @@ import Image from "next/image";
 import mypic from "../asset/logoHiquma.png";
 import mypic2 from "../asset/construction.png";
 import mypic3 from "../asset/hiqumaBanner3.png";
+import weChat from "../asset/weChat.png";
+import email from "../asset/email.png";
 
 export default function Home() {
   if (process.browser) {
@@ -32,12 +34,28 @@ export default function Home() {
         <Image src={mypic3} alt="Picture of the author" />
         {/* <h2 className="description">Website is under construction</h2> */}
 
-        <h2 className="description">Contact</h2>
-        <p className="description">
-          <b>Email :</b> hiquma@hiquma.net{" "}
+        {/* <h2 className="description">Contact</h2> */}
+        <p className="description weChat">
+          <Image
+            src={email}
+            alt="Picture of the author"
+            width="50px"
+            height="50px"
+            class="logo"
+          />
+          hiquma@hiquma.net
         </p>
-        <p className="description">
-          <b>Wechat:</b> cn13826896303
+        <p className="description weChat">
+          <b>
+            <Image
+              src={weChat}
+              alt="Picture of the author"
+              width="50px"
+              height="50px"
+              class="logo"
+            />
+          </b>{" "}
+          cn13826896303
         </p>
       </main>
 
