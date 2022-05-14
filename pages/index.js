@@ -7,9 +7,11 @@ import mypic2 from "../asset/construction.png";
 import mypic3 from "../asset/hiqumaBanner2.png";
 
 export default function Home() {
-  // document.addEventListener("contextmenu", function handelRightClick(event) {
-  //   event.preventDefault();
-  // });
+  if (process.browser) {
+    document.addEventListener("contextmenu", function handelRightClick(event) {
+      event.preventDefault();
+    });
+  }
 
   return (
     <div className="container">
