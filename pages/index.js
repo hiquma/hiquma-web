@@ -4,6 +4,7 @@ import Footer from "@components/Footer";
 import Image from "next/image";
 import mypic from "../asset/logoHiquma.png";
 import mypic2 from "../asset/construction.png";
+import mypic3 from "../asset/hiqumaBanner.jpg";
 
 export default function Home() {
   return (
@@ -19,15 +20,16 @@ export default function Home() {
           alt="Picture of the author"
           width="350px"
           height="200px"
+          class= 'logo'
         />
 
         <Image
-          src={mypic2}
+          src={mypic3}
           alt="Picture of the author"
-          width="430px"
-          height="220px"
+          width="600px"
+          height="400px"
         />
-        <h2 className="description">Website is under construction</h2>
+        {/* <h2 className="description">Website is under construction</h2> */}
 
         <h2 className="description">Contact</h2>
         <p className="description">
