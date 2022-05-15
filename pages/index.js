@@ -39,23 +39,21 @@ export default function Home() {
           <Image
             src={email}
             alt="Picture of the author"
-            width="50px"
-            height="50px"
+            width="33px"
+            height="33px"
             class="logo"
           />
-          hiquma@hiquma.net
+          &nbsp;&nbsp;hiquma@hiquma.net
         </p>
         <p className="description weChat">
-          <b>
-            <Image
-              src={weChat}
-              alt="Picture of the author"
-              width="50px"
-              height="50px"
-              class="logo"
-            />
-          </b>{" "}
-          cn13826896303
+          <Image
+            src={weChat}
+            alt="Picture of the author"
+            width="33px"
+            height="33px"
+            class="logo"
+          />
+          &nbsp;&nbsp;cn13826896303
         </p>
       </main>
 

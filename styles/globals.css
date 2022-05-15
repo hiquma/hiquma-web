@@ -39,4 +39,6 @@ code {
   justify-content: center;
   align-items: center;
 }
-
+.logo{
+  margin: 100px;
+}
